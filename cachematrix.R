@@ -6,6 +6,10 @@
 
 makeCacheMatrix <- function(x = matrix()) {
     ## The function creates a list with 4 functions that can me used like "methods" of the object:
+    ##      setMatrix(): stores the value of a matrix
+    ##      getMatrix(): retrieves the value of the matrix
+    ##      setInverseMatrix() stores the value of the inverse of the matrix
+    ##      getInverseMatrix() retrieves the value of the inverse of the matrix
     
         i <- NULL
         
