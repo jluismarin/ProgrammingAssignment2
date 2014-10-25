@@ -1,4 +1,9 @@
-## The functions bellow can be used to store a matrix and its inverse. 
+## The functions bellow can be used to store a matrix and its inverse.
+## The calculation of the inverse of the matrix is performed only once but can be used many times
+## Usage:
+##      (1) a <- makeCacheMatrix(matrix(c(1,3,5,7), 2, 2))
+##      (2) cacheSolve(a)
+##      (3) Test: a$getInverseMatrix() %*% a$getMatrix()
 
 
 
